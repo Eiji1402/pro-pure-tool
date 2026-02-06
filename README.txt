@@ -1,22 +1,72 @@
-# PCC Pro/Pure Tool – iPhone "App" (PWA) Paket
+Pro Pure Tool
+iPhone Usage (without App Store)
 
-Dieses Paket macht aus deiner HTML eine installierbare Web-App (PWA), die auf iPhones über Safari
-zum Home-Bildschirm hinzugefügt werden kann und danach offline läuft (Cache).
+This tool is provided as a web-based application and can be used on iPhones
+without installation via the App Store. Usage is performed via Safari and,
+after initial setup, the tool can also be used offline.
 
-## Inhalt
-- index.html (deine HTML + PWA-Hooks)
-- manifest.json
-- service-worker.js (Offline-Cache)
-- /icons (App-Icons)
+==================================================
+📱 Installation on iPhone
+==================================================
 
-## So nutzt du es (Kurz)
-1) Lege den kompletten Ordner auf einen Server, der per **HTTPS** erreichbar ist.
-   - Für Tests im WLAN geht auch ein lokaler Server am PC, aber iOS ist mit HTTPS am glücklichsten.
-2) Öffne auf dem iPhone **Safari** und rufe die URL zu `index.html` auf.
-3) Tippe auf **Teilen** → **Zum Home-Bildschirm**.
-4) Einmal starten lassen, damit der Offline-Cache aufgebaut wird.
-5) Danach Flugmodus testen: App öffnen → sollte weiterhin laufen.
+1. 🌐 Open Safari
+   (Installation is only possible via Safari.)
 
-## Wichtig
-- Installation auf iOS geht praktisch nur über Safari (nicht Chrome).
-- Andere iPhones können es installieren, sobald sie die gleiche URL erreichen.
+2. 🔗 Open the tool URL
+   Example:
+   https://username.github.io/pro-pure-tool/
+
+3. ⬆️ Tap the Share icon
+   (Square with arrow pointing up)
+
+4. ➕ Select “Add to Home Screen”
+
+5. ✅ Confirm by tapping “Add”
+
+The tool will now appear as an app icon on the iPhone home screen and can be
+launched like a native application.
+
+==================================================
+📄 PDF Documents
+==================================================
+
+- PDF documents open directly within the app.
+- For offline usage, all required PDFs must be opened at least once
+  while an internet connection is available.
+
+==================================================
+✈️ Offline Usage
+==================================================
+
+Requirements:
+- Open the app once while online
+- Open all required PDF documents once
+
+Afterwards, the tool can be used without an internet connection
+(e.g. airplane mode).
+
+==================================================
+🔄 Updates and Changes
+==================================================
+
+After updates to the tool:
+
+1. Close the app
+2. Reopen the app
+
+If changes are not visible:
+- Remove the app from the home screen
+- Open Safari
+- Add the tool again via “Add to Home Screen”
+
+==================================================
+ℹ️ Notes
+==================================================
+
+- No App Store required
+- No login required
+- Suitable for use on multiple iPhones
+- Installation and usage are at the user’s own responsibility
+
+Short version:
+Safari → Open tool URL → Add to Home Screen
